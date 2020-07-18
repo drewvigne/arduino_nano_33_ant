@@ -101,8 +101,13 @@ Open ant_key_manager_config.h in a text editor. Add the public ANT+ key and ANT-
 Install with default settings (this should automatically install J-Link tools). Install the Programmer app inside of nRF Connect. This will be used to flash SoftDevice and Application stacks.
 
 ## Connecting the J-Link  
-Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers.  
-![J-Link Connection](arduino_nano_33_ant/images/jlink_connection.jpeg)
+Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers. 
+
+<img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/pinout_diagram.jpg" height="500">
+
+The end result should look like this.  
+
+<img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/jlink_connection.jpg" height="500">
 
 ## Bike Power TX Example  
 
@@ -116,7 +121,11 @@ C/nRF5_SDK/examples/ant/ant_plus/ant_bpwr/bpwr_tx/nano33
 Open the Nano33 emproject file in Segger Embedded Studio. Navigate to the toolbar and select "Build" and build "ant_bpwr_tx_nano33_s212".  
 
 **3. Flashing in nRF Connect**  
-Open the programmer app in nRF Connect. Load the Bike Power Application and S212 SoftDevice hex files. Erase and write.
+Open the programmer app in nRF Connect. Load the Bike Power Application and S212 SoftDevice hex files. Erase and write.  
+
+<img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/nrf_connect.PNG" height="500">
+
+Boom. Done.  
 
 **4. Using the Simulator**  
 Currently the board definition file uses Analog Pins 0 and 1 as buttons. These two buttons are how you increase or decrease the simulator output power. See the demo on my youtube channel [here](https://www.youtube.com/watch?v=6V0DYIKVKSc&t=37s).
