@@ -139,4 +139,4 @@ Coming soon. Currently working on the code to implement the bike power profile a
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
 
 ## Acknowledgments
-The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge on the ANT and ANT+ protcol.
+The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge of the ANT protcol.
