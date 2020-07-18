@@ -102,6 +102,7 @@ Install with default settings (this should automatically install J-Link tools). 
 
 ## Connecting the J-Link  
 Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers.  
+![J-Link Connection](/images/jlink_connection.jpeg)
 
 ## Bike Power TX Example  
 
