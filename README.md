@@ -1,5 +1,5 @@
 # Arduino Nano 33 ANT
-Transforms Arduino Nano 33 BLE into fully functional ANT transceiver. Utilizes S212 SoftDevice to support ANT wireless protocol. Made for development with nRF5 SDK. Compatible with ANT+ device profiles like Bike Power.
+Transforms Arduino Nano 33 BLE into ANT transceiver. Compatible with ANT+ device profiles like Bike Power. Utilizes S212 SoftDevice. Made for development with nRF5 SDK.
 
 ### History
 I was supposed to spend this summer at the Kennedy Space Center interning for one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so in between class I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
