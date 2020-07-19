@@ -101,10 +101,10 @@ Open ant_key_manager_config.h in a text editor. Add the public ANT+ key and ANT-
 Install with default settings (this should automatically install J-Link tools). Install the Programmer app inside of nRF Connect. This will be used to flash SoftDevice and Application stacks.
 
 ## Connecting the J-Link  
-Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers. 
+Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers. Pin 1 is located on the bottom left-hand corner of the J-Link Mini, and is denoted by the number "1".  
 <img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/pinout_diagram.jpg" height="500">
 
-The end result should look like this. Note the "1" on the bottom left corner of your J-Link mini. That is pin 1.  
+The end result should look like this.  
 <img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/jlink_connection.jpg" height="500">  
 
 ## Bike Power TX Example  
@@ -124,7 +124,7 @@ Open the programmer app in nRF Connect. Load the Bike Power Application and S212
 Boom. Done.  
 
 **4. Using the Simulator**  
-Currently the board definition file uses Analog Pins 0 and 1 as buttons. These two buttons are how you increase or decrease the simulator output power. See the demo on my youtube channel [here](https://www.youtube.com/watch?v=6V0DYIKVKSc&t=37s).
+Currently the board definition file uses 3 Analog Pins as buttons. Buttons 1 and 2 increase or decrease the simulator output power. Button 3 responds to calibration requests. See the demo on my youtube channel [here](https://www.youtube.com/watch?v=6V0DYIKVKSc&t=37s).
 
 ## Bike Power Meter 
 Coming soon. Currently working on the code to implement the bike power profile as an actual bike power meter. It will employ HX711 libraries to support the strain gauges. To calculate cadence I will be using the Nano 33's built-in IMU.  
