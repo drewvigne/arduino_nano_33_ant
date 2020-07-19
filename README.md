@@ -2,9 +2,13 @@
 Transforms Arduino Nano 33 BLE into fully functional ANT transceiver. Utilizes S212 SoftDevice to support ANT wireless protocol. Made for development with nRF5 SDK. Compatible with ANT+ device profiles like Bike Power.
 
 ### History
-Built by a cyclist engineer dude for other cyclist engineer dudes. I was inspired to make a bike power meter to satiate my lust for data, but didn't want to drop $1000 to get my fix (I'm a relatively low net worth college student at the moment). The Arduino Nano 33 BLE struck me as an ideal starting point due to its small form factor and built in IMU. I thought I could get it sending power data to my Garmin Edge 500 in no time. How naive.
+I was supposed to spend this summer at the Kennedy Space Center interning at one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
 
-I was quickly faced with a terrible problem - even though the Arduino Nano 33 BLE uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT is sparse. I realized I had to figure this out myself.
+While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes I admit... a part of me wanted to know my FTP.
+
+The Arduino Nano 33 BLE struck me as an ideal starting point for this project due to its small form factor and built in IMU. I thought I could get my prototype sending power data to my Garmin Edge 500 in no time. How naive.
+
+I was quickly faced with a terrible problem - even though the Arduino Nano 33 BLE uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT was sparse. I realized I had to figure this out myself.
 
 Hence the birth of Arduino Nano 33 ANT. 
 
