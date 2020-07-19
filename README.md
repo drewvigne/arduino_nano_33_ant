@@ -21,9 +21,9 @@ Hence the birth of Arduino Nano 33 ANT.
 - [nRF Connect](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-desktop)
 
 ### What's in the box
-- A step-by-step installation guide
-- Custom board definition for nRF5 SDK compatibility
-- Bike power tx example code
+- Installation guide
+- Custom board definition
+- Bike power example code
 
 ## Installation
 
