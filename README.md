@@ -104,7 +104,7 @@ Install with default settings (this should automatically install J-Link tools). 
 Connect the J-Link debugger to your Nano 33 using the following pinout diagram. Just match the numbers. 
 <img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/pinout_diagram.jpg" height="500">
 
-The end result should look like this.  
+The end result should look like this. Note the "1" on the bottom left corner of your J-Link mini. That is pin 1.  
 <img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/jlink_connection.jpg" height="500">  
 
 ## Bike Power TX Example  
@@ -139,4 +139,4 @@ Coming soon. Currently working on the code to implement the bike power profile a
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
 
 ## Acknowledgments
-The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge of the ANT protcol.
+The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge of the ANT protocol.
