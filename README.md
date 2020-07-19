@@ -6,7 +6,7 @@ I was supposed to spend this summer at the Kennedy Space Center interning for on
 
 While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes I admit... a part of me wanted to know my FTP.
 
-The Arduino Nano 33 BLE struck me as an ideal starting point for this project due to its small form factor and built in IMU. I thought I could get my prototype sending power data to my Garmin Edge 500 in no time. How naive.
+The Arduino Nano 33 BLE struck me as an ideal starting point for this project due to its small form factor and built-in LSM9DS1 IMU. I thought I could get my prototype sending power data to my Garmin Edge 500 in no time. How naive.
 
 I was quickly faced with a terrible problem - even though the Arduino Nano 33 BLE uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT was sparse. I realized I had to figure this out myself.
 
@@ -129,9 +129,6 @@ Boom. Done.
 
 **4. Using the Simulator**  
 Currently the board definition file uses 3 Analog Pins as buttons. Buttons 1 and 2 increase or decrease the simulator output power. Button 3 responds to calibration requests. See the demo on my youtube channel [here](https://www.youtube.com/watch?v=6V0DYIKVKSc&t=37s).
-
-## Bike Power Meter 
-Coming soon. Currently working on the code to implement the bike power profile as an actual bike power meter. It will employ HX711 libraries to support the strain gauges. To calculate cadence I will be using the Nano 33's built-in IMU.  
 
 ## Resources  
 [U-Blox NINA-B3 Datasheet](https://www.u-blox.com/sites/default/files/NINA-B3_DataSheet_%28UBX-17052099%29.pdf) (the nRF52840 variant used by Nano 33)  
