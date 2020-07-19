@@ -2,7 +2,7 @@
 Transforms Arduino Nano 33 BLE into fully functional ANT transceiver. Utilizes S212 SoftDevice to support ANT wireless protocol. Made for development with nRF5 SDK. Compatible with ANT+ device profiles like Bike Power.
 
 ### History
-I was supposed to spend this summer at the Kennedy Space Center interning at one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
+I was supposed to spend this summer at the Kennedy Space Center interning at one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so in between class I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
 
 While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes I admit... a part of me wanted to know my FTP.
 
