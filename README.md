@@ -136,8 +136,5 @@ Currently the board definition file uses 3 Analog Pins as buttons. Buttons 1 and
 [U-Blox nRF5 Guide](https://www.u-blox.com/sites/default/files/Add-NordicSemiconductorDFU-to-SDKexample_AppNote_%28UBX-19050198%29.pdf)  
 [Another NINA-B3 Guide](https://www.u-blox.com/sites/default/files/NINA-B3_SIM_%28UBX-17056748%29.pdf)  
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
-
 ## Acknowledgments
 The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge of the ANT protocol.
