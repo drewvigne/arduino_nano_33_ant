@@ -131,10 +131,10 @@ Boom. Done.
 Currently the board definition file uses 3 Analog Pins as buttons. Buttons 1 and 2 increase or decrease the simulator output power. Button 3 responds to calibration requests. See the demo on my youtube channel [here](https://www.youtube.com/watch?v=6V0DYIKVKSc&t=37s).
 
 ## Resources  
-[U-Blox NINA-B3 Datasheet](https://www.u-blox.com/sites/default/files/NINA-B3_DataSheet_%28UBX-17052099%29.pdf) (the nRF52840 variant used by Nano 33)  
-[Nano 33 Schematic](https://content.arduino.cc/assets/NANO33BLE_V2.0_sch.pdf)  
-[U-Blox nRF5 Guide](https://www.u-blox.com/sites/default/files/Add-NordicSemiconductorDFU-to-SDKexample_AppNote_%28UBX-19050198%29.pdf)  
-[Another NINA-B3 Guide](https://www.u-blox.com/sites/default/files/NINA-B3_SIM_%28UBX-17056748%29.pdf)  
+-[U-Blox NINA-B3 Datasheet](https://www.u-blox.com/sites/default/files/NINA-B3_DataSheet_%28UBX-17052099%29.pdf) (the nRF52840 variant used by Nano 33)  
+-[Nano 33 Schematic](https://content.arduino.cc/assets/NANO33BLE_V2.0_sch.pdf)  
+-[U-Blox nRF5 Guide](https://www.u-blox.com/sites/default/files/Add-NordicSemiconductorDFU-to-SDKexample_AppNote_%28UBX-19050198%29.pdf)  
+-[Another NINA-B3 Guide](https://www.u-blox.com/sites/default/files/NINA-B3_SIM_%28UBX-17056748%29.pdf)  
 
 ## Acknowledgments
 The start of this project was a slow but steady learning curve. My learning was accelerated by Curtis Melainey and Gabor Ziegler, who both kindly shared their knowledge of the ANT protocol.
