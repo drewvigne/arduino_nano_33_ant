@@ -1,7 +1,7 @@
 # Arduino Nano 33 ANT
-Transforms Arduino Nano 33 BLE into ANT transceiver. Made for ANT+ device profiles like Bike Power. Utilizes nRF5 SDK and S212 SoftDevice for full ANT stack support.
+Integrates Nano 33 into nRF5 SDK environment for easy ANT+ prototyping. Includes bike power meter example code.
 
-### History
+### About
 I was supposed to spend this summer at the Kennedy Space Center interning for one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so in between class I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
 
 While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes I admit... a part of me wanted to know my FTP.
@@ -23,7 +23,7 @@ Hence the birth of Arduino Nano 33 ANT.
 ### What's in the box
 - Installation guide
 - Custom board definition
-- Bike power example code
+- ANT+ bike power example code
 
 ## Installation
 
@@ -111,7 +111,7 @@ Connect the J-Link debugger to your Nano 33 using the following pinout diagram. 
 The end result should look like this.  
 <img src="https://github.com/drewvigne/arduino_nano_33_ant/blob/master/images/jlink_connection.jpg" height="500">  
 
-## Bike Power TX Example  
+## Bike Power TX Example
 
 **1. Installing**  
 Download the nano33 directory containing the bike power example and config files. Place this in your SDK at the following directory.  
