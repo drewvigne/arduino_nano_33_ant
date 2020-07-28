@@ -99,7 +99,7 @@ extern "C" {
 #define ARDUINO_SDA_PIN        		NRF_GPIO_PIN_MAP(0,31) // SDA signal pin
 #define ARDUINO_SCL1_PIN        	NRF_GPIO_PIN_MAP(0,15) // SCL1 signal pin
 #define ARDUINO_SDA1_PIN        	NRF_GPIO_PIN_MAP(0,14) // SDA1 signal pin
-#define ARDUINO_AREF_PIN       		21    		       	   // Aref pin
+#define ARDUINO_AREF_PIN       		21    		       // Aref pin
 
 #define ARDUINO_13_PIN          	NRF_GPIO_PIN_MAP(0,13) // Digital pin 13
 #define ARDUINO_12_PIN          	NRF_GPIO_PIN_MAP(1,8)  // Digital pin 12
