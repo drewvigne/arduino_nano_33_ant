@@ -8,7 +8,7 @@ While all this was happening, I dreamed up an idea of developing my own bike pow
 
 The Arduino Nano 33 BLE struck me as an ideal starting point for this project due to its small form factor and built-in LSM9DS1 IMU. I thought I could get my prototype sending power data to my Garmin Edge 500 in no time. How naive.
 
-I was quickly faced with a terrible problem - even though the Arduino Nano 33 BLE uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT was sparse. I realized I had to figure this out myself.
+I was quickly faced with a terrible problem - even though the Nano 33 uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT was sparse. I realized I had to figure this out myself.
 
 Hence the birth of Arduino Nano 33 ANT. 
 
