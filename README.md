@@ -1,14 +1,14 @@
 # Arduino Nano 33 ANT
-Integrates Nano 33 into nRF5 SDK environment for easy ANT+ prototyping. Includes bike power meter example code.
+Software that integrates Nano 33 into nRF5 SDK for fitness tracker prototyping. Specially made for ANT+ bike power meters.
 
 ### About
 I was supposed to spend this summer at the Kennedy Space Center interning for one of NASA's biggest contractors. Unfortunately this awesome gig was cut short due to coronavirus. This forced me to get creative in terms of making money, so in between class I worked for neighbors doing landscaping and even drove Uber in the night time. I was earning decent money but was not learning any engineering.
 
-While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes I admit... a part of me wanted to know my FTP.
+While all this was happening, I dreamed up an idea of developing my own bike power meter. My goal was to understand the engineering concepts that go into bike power meters inside and out - from software to hardware. And yes... I wanted to know my FTP.
 
 The Arduino Nano 33 BLE struck me as an ideal starting point for this project due to its small form factor and built-in LSM9DS1 IMU. I thought I could get my prototype sending power data to my Garmin Edge 500 in no time. How naive.
 
-I was quickly faced with a terrible problem - even though the Nano 33 uses an nRF52840, it does not natively support ANT transceiving. I scoured forums searching for a solution, but all I heard were crickets. Documentation on ANT was sparse. I realized I had to figure this out myself.
+I was quickly faced with a problem - even though the Nano 33 uses an nRF52840 SoC, it does not natively support Garmin's ANT+ protocol within the Arduino framework.
 
 Hence the birth of Arduino Nano 33 ANT. 
 
